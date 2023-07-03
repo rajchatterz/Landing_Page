@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 3vh;
+    padding: 20px 0px;
+}
+.top a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+.nav-middle img{
+    width: 120px;
+    height: 110px;
+    border-radius: 120px;
+}
+.nav-left{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 10px 30px;
+}
+.nav-left li a{
+    text-decoration: none;
+    color: grey;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 30px;
+    color: grey;
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: rgb(187, 173, 173);
+    outline: none;
+}
+.nav-right img{
+    width: 30px;
+}
+.nav-right select{
+    border-radius: 20px;
+    padding: 3px 0px;
+    color: grey;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: flex-start;
+    padding: 200px;
+    
+}
+.hero-left h1{
+    font-size: 37px;
+}
+.hero-right img{
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+#btnHero{
+    font-size: 17px;
+    padding: 9px 30px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 7vh;
+    color: white;
+}
+.btnn{
+    padding: 8px 20px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.footer-left p a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#cross{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+}
+.show{
+    display: none;
+}
